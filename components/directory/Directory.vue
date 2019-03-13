@@ -95,8 +95,8 @@
             links2() {
                 return this.$store.getters.directoryLinks2;
         },
-            linkCount() {
-            return this.$store.getters.getProfessionsCount;
+            count() {
+            return this.$store.getters.getProfessionsCount.length;
             }
     }
 }
